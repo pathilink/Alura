@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br><br>");
+
+    }
+
+    function mostra(frase){
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    // *******DECREMENTAR**************************
+    var contador = 20;
+
+    while(contador >= 0){
+        mostra(contador);
+        contador -= 1;
+    }
+
+    // *******IMPRIME DE 30 A 40*******************
+    /*
+    var contador = 30;
+    while(contador <= 40){
+        if(contador != 33 && contador != 37){
+            mostra(contador);
+        }
+        contador += 1;
+    }
+    */
+
+    // *******IMPRIME N PARES ATÉ 100**************
+    /*
+    var contador = 1;
+    while(contador <= 100){
+        if(contador % 2 == 0){
+            mostra(contador);
+        }
+        contador += 1;
+    }
+    */
+    // Outra forma:
+    /*
+    var contador = 2;
+    while(contador <= 100){
+        mostra(contador);
+        contador = contador + 2
+    }
+    */
+
+    mostra("FIM")
+</script>

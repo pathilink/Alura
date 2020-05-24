@@ -1,0 +1,48 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br><br>");
+
+    }
+
+    function mostra(frase){
+
+        alert(frase);
+        /*
+        Atenção: com atualizações, o Google Chrome agora só mostra 
+        as mensagens através de document.write() realizadas dentro de 
+        um loop, somente quando a página for carregada completamente, 
+        isto é, quando o loop termina. Neste caso, para efeito de 
+        aprendizagem, utilizem alert() no lugar de document.write().
+        */
+
+    }
+
+    var numeroPensado = Math.round(Math.random() * 10);
+    console.log(numeroPensado);
+
+    var tentativas = 1;
+
+    while(tentativas <= 3){
+        
+        var chute = parseInt(prompt("Digite seu chute:"));
+
+        if(chute == numeroPensado){
+
+            mostra("Você ACERTOU! O número pensado era " + numeroPensado);
+            break;
+
+        } else{
+
+            mostra("Você ERROU!");
+        }
+
+        tentativas++;
+    }
+
+    mostra("FIM");
+
+</script>

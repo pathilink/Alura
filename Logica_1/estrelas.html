@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br>");
+
+    }
+
+    function mostra(frase){
+
+        document.write(frase);
+        pulaLinha();
+        /*
+        Atenção: com atualizações, o Google Chrome agora só mostra 
+        as mensagens através de document.write() realizadas dentro de 
+        um loop, somente quando a página for carregada completamente, 
+        isto é, quando o loop termina. Neste caso, para efeito de 
+        aprendizagem, utilizem alert() no lugar de document.write().
+        */
+
+    }
+
+    for(var linha = 1; linha <= 3; linha++){
+
+        for(var coluna = 1; coluna <= 10; coluna++){
+
+            document.write("*");
+        }
+        pulaLinha();
+    }
+
+</script>
