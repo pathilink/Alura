@@ -1,0 +1,3 @@
+module bytebank {
+	exports bytebank;
+}
