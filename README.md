@@ -15,5 +15,14 @@ Activities carried out during the courses.
 - jQuery: Avance na biblioteca mais popular do mercado parte 2
 - Web Design Responsivo: Páginas que se adaptam do mobile ao desk
 - Front-end: Projeto de conclusão
+- Java parte 1: Primeiros passos
+- Java parte 2: Introdução à Orientação a Objetos
+- Java parte 3: Entendendo herança e interface
+- Java parte 4: Entendendo exceções
+- Java parte 5: Pacotes e java.lang
+- Java parte 6: Conhecendo o java.util
+- Java parte 7: Trabalhando com java.io
+- Java: Dominando as Collections
+- Java 8: Tire proveito dos novos recursos da linguagem
 
 
